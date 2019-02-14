@@ -5,7 +5,7 @@ import './index.css';
 class FlavorForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {value: 'coconut', 'value2': 'mango'};
+    this.state = {value: 'coconut'};
   }
 
   handleChange = (event) => {
